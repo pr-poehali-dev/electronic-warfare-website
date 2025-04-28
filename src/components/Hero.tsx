@@ -11,7 +11,7 @@ const Hero = () => {
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 text-blue-400 mb-6">
               <ShieldCheck className="w-4 h-4 mr-2" />
-              <span className="text-sm font-medium">Надежная защита информации</span>
+              <span className="text-sm font-medium">Надежная защита от атак БПЛА</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Современные решения радиоэлектронной борьбы
