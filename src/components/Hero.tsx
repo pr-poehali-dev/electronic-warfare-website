@@ -1,12 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 import { ShieldCheck, Radio, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="pt-28 pb-16 bg-gradient-to-b from-slate-900 to-slate-800">
-      <div className="container mx-auto px-4">
+    <section className="pt-28 pb-16 relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 to-slate-800/80 backdrop-blur-sm"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-600/20 text-blue-400 mb-6">
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-slate-800 rounded-xl p-6 shadow-lg border border-slate-700 relative z-10">
+            <div className="bg-slate-800/70 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-slate-700/50 relative z-10">
               <div className="absolute -top-4 -right-4 bg-blue-500 rounded-full p-3">
                 <Radio className="w-6 h-6" />
               </div>
